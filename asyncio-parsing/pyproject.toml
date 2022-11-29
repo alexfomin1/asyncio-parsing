@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "asyncio-parsing"
+version = "0.1.0"
+description = ""
+authors = ["alex <me@fomin3.ru>"]
+readme = "README.md"
+packages = [{include = "asyncio_parsing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.3"
+aiodns = "^3.0.0"
+feedparser = "^6.0.10"
+pytest = "^7.2.0"
+aiocouch = "^2.2.2"
+pydantic = "^1.10.2"
+aioredis = "^2.0.1"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

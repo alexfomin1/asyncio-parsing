@@ -1,0 +1,12 @@
+{
+    "reportMissingReports": false,
+    "DEBUG": true,
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "src/experimental",
+        "src/typestubs",
+        ".venv",
+        ".git"
+    ]
+}
